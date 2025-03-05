@@ -1,3 +1,4 @@
+ps.close();
 String password = props.getProperty("db.password");
 } finally {
 hello world
