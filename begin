@@ -1,3 +1,4 @@
+out.close();
 try {
 while (rs.next())
 } finally {
