@@ -1,3 +1,4 @@
+public void fetch() throws SQLException, IOException
 BufferedWriter out = null;
 ResultSet rs = ps.executeQuery();
 public void fetch() throws SQLException, IOException
