@@ -1,3 +1,4 @@
+con=DriverManager.getConnection(url, userName, password);
 PreparedStatement ps = con.prepareStatement("select SYSDATE from dual");
 public void fetch() throws SQLException, IOException
 BufferedWriter out = null;
