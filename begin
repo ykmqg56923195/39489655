@@ -1,3 +1,4 @@
+public void fetch() throws SQLException, IOException
 props.load(fs);
 con=DriverManager.getConnection(url, userName, password);
 PreparedStatement ps = con.prepareStatement("select SYSDATE from dual");
