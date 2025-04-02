@@ -1,3 +1,4 @@
+// error processing code
 Connection con;
 test.init();
 public void fetch() throws SQLException, IOException
